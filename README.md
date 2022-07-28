@@ -3,7 +3,7 @@ A tiny python utility for dictionary based find and replace in a single string b
 
 ## Instructions
 
-Create a `.csv` to serve as the glossary with the first line `Property,Value`. Alternatively you could use a spreadsheet software and export as a csv, solong as your first row is correct.
+Create a `.csv` to serve as the glossary with the first line `Property,Value`. Alternatively you could use a spreadsheet software and export as a csv, so long as your first row is correct.
 
 Example:
 ```
@@ -42,3 +42,8 @@ Load these two files into JASON and click `Run`.
 | File  | Details |
 | ------------- |:-------------:|
 | Input`.j`     | Copy of the Input file where all instances of keys in the glossary have been replaced with their corresponding values. Appended with `.j` extension|
+
+## Plans
+- Add functionality to run JASON through multiple files.
+- Add functionality to append a write to the output file for each key value pair in the glossary.
+- Allow the above to be in a single or multiple files.
