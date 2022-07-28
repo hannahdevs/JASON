@@ -1,6 +1,8 @@
 # JASON
 A tiny python utility for dictionary based find and replace in a single string based file.
 
+Named from it's first use case where I needed the function to generate 39k lines of speicifcally formatted json based on a csv.
+
 ## Instructions
 
 Create a `.csv` to serve as the glossary with the first line `Property,Value`. Alternatively you could use a spreadsheet software and export as a csv, so long as your first row is correct.
